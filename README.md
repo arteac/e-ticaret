@@ -3,7 +3,7 @@
 Bu proje, CodeIgniter (PHP) ve Node.js teknolojilerini kullanarak geliştirilmiş bir e-ticaret sitesini temsil etmektedir. Kullanıcıların forma ve krampon gibi spor ürünlerini satın alabileceği, sepet işlemleri yapabileceği bir sistem sunar. Sistem iki ana bölümden oluşmaktadır:
 
 - **CodeIgniter Backend**: Kullanıcı girişi, üye kayıt işlemleri ve sepet yönetimi gibi işlemler.
-- **Node.js Backend**: Ürün ekleme, silme, güncelleme ve listeleme işlemleri.
+- **Node.js Backend**: Ürün ekleme, silme, güncelleme ve listeleme işlemleri (Admin Paneli).
 
 ## Proje Özeti
 
