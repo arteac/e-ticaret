@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ürün Listesi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* Genel stil */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9f9fb;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-top: 40px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: #34495e;
+      font-size: 2rem;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    /* Form stili */
+    form {
+      background-color: #ffffff;
+      padding: 35px;
+      border-radius: 15px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 700px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    label {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #2c3e50;
+    }
+
+    input, textarea {
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      width: 100%;
+      box-sizing: border-box;
+      transition: border 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #3498db;
+      box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+      outline: none;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-sizing: border-box;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    /* Tablo stili */
+    table {
+      width: 100%;
+      max-width: 950px;
+      margin-top: 40px;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 20px 30px;
+      text-align: left;
+      font-size: 1.1rem;
+      color: #34495e;
+      border-bottom: 1px solid #f0f0f0;
+      font-weight: 500;
+    }
+
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+
+    tr:hover td {
+      background-color: #ecf0f1;
+    }
+
+    /* Responsive Tasarım */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+      table, form {
+        width: 90%;
+      }
+
+      input, textarea, button {
+        font-size: 1rem;
+      }
+
+      th, td {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Ürün Yönetimi</h1>
+  
+  <!-- Ürün Ekleme Formu -->
+  <h2>Yeni Ürün Ekle</h2>
+  <form id="add-product-form" enctype="multipart/form-data">
+    <label for="product_name">Ürün Adı:</label>
+    <input type="text" id="product_name" placeholder="Ürün adını girin" required><br>
+
+    <label for="product_price">Ürün Fiyatı:</label>
+    <input type="number" id="product_price" placeholder="Ürün fiyatını girin" required><br>
+
+    <label for="product_image">Ürün Resmi:</label>
+    <input type="file" id="product_image" required><br>
+
+    <button type="submit">Ürün Ekle</button>
+  </form>
+
+  <h2>Ürün Listesi</h2>
+  <table id="product-table">
+    <thead>
+      <tr>
+        <th>Ürün Adı</th>
+        <th>Fiyat</th>
+        <th>Resim</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Ürünler buraya eklenecek -->
+    </tbody>
+  </table>
+
+<script>
+  // Ürünleri listelemek için API'den veri alıyoruz
+  async function fetchProducts() {
+    try {
+      const response = await fetch('/api/products');
+      const products = await response.json();
+  
+      const tableBody = document.querySelector('#product-table tbody');
+      tableBody.innerHTML = ''; // Mevcut veriyi temizle
+  
+      // Ürünleri tabloya ekliyoruz
+      products.forEach(product => {
+        const row = document.createElement('tr');
+        row.innerHTML = ` 
+          <td>${product.product_name}</td>
+          <td>${product.product_price}₺</td>
+          <td><img src="${product.product_image}" alt="${product.product_name}" width="100" /></td>
+        `;
+        tableBody.appendChild(row);
+      });
+    } catch (error) {
+      console.error('Ürünler alınırken bir hata oluştu:', error);
+    }
+  }
+  
+  // Yeni eklenen ürünü tabloya eklemek
+  function addProductToTable(product) {
+    const tableBody = document.querySelector('#product-table tbody');
+    const row = document.createElement('tr');
+    row.innerHTML = ` 
+      <td>${product.product_name}</td>
+      <td>${product.product_price}₺</td>
+      <td><img src="${product.product_image}" alt="${product.product_name}" width="100" /></td>
+    `;
+    tableBody.appendChild(row);
+  }
+  
+  // Ürün ekleme formunu işleyelim
+  document.getElementById('add-product-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+  
+    const product_name = document.getElementById('product_name').value;
+    const product_price = document.getElementById('product_price').value;
+    const product_image = document.getElementById('product_image').files[0];
+  
+    const formData = new FormData();
+    formData.append('product_name', product_name);
+    formData.append('product_price', product_price);
+    formData.append('product_image', product_image);
+  
+    try {
+      // Yeni ürünü backend'e ekleyelim
+      const response = await fetch('/api/products', {
+        method: 'POST',
+        body: formData,
+      });
+
+      console.log('API yanıtı:', response);
+
+      if (response.ok) {
+        const newProduct = await response.json();
+        console.log('Yeni ürün:', newProduct);
+        // Ürün başarıyla eklendikten sonra tabloyu güncelle
+        addProductToTable(newProduct);
+        // Başarı mesajı
+        alert('Ürün eklendi');
+        // Formu sıfırlayalım
+        document.getElementById('add-product-form').reset();
+      } else {
+        console.error('Ürün eklendi, Lütfen Sayfayı Yenileyin');
+        alert('Ürün eklendi, Lütfen Sayfayı Yenileyin');
+      }
+    } catch (error) {
+      console.error('Veri gönderilirken bir hata oluştu:', error);
+      alert('Veri gönderilirken bir hata oluştu.');
+    }
+  });
+  
+  // Sayfa yüklendiğinde ürünleri listele
+  window.onload = fetchProducts;
+</script>
+
+  
+</body>
+</html>
