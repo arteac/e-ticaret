@@ -21,7 +21,7 @@ Bu projede, aşağıdaki temel işlemler yapılmaktadır:
    - Sayfa yenilenir ve MongoDB Atlas'a eklenmiş olan ürün sayfada görünür.
 
 2. **MongoDB Atlas'a Veri Ekleme**:
-   - Ürünler MongoDB Atlas üzerindeki **Collection**'a eklenir. Bu işlem, backend tarafında bir API çağrısı ile yapılır.
+   - Ürünler MongoDB Atlas üzerindeki **Collection**'a eklenir. Bu işlem, backend tarafında bir API çağrısı ile yapılmaktadır.
 
 ## İşleyiş Adımları
 
