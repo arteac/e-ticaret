@@ -38,7 +38,7 @@ Bu projede, aşağıdaki temel işlemler yapılmaktadır:
 ## Kullanım
 
 1. **Proje Dosyalarını İndirme**:
-   - Projeyi bilgisayarınıza indirip çalıştırabilirsiniz..
+   - Projeyi bilgisayarınıza indirip çalıştırabilirsiniz.
    
    ``````bash
    git clone https://github.com/arteac/e-ticaret.git
