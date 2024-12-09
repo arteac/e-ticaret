@@ -35,7 +35,8 @@ Bu projede, aşağıdaki temel işlemler yapılmaktadır:
 3. **Sayfa Yenileme ve Ürün Görüntüleme**:
    - Sayfa yenilendikten sonra, MongoDB Atlas'tan yeni ürünler çekilir ve sayfada listelenir.
 
-## Kullanım
+## Projeyi Localde Çalıştırmak
+   - http://localhost:3000 adresine gidip projeyi çalıştırıabilirsiniz
 
 1. **Proje Dosyalarını İndirme**:
    - Projeyi bilgisayarınıza indirip çalıştırabilirsiniz..
