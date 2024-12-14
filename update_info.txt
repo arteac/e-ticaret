@@ -2,6 +2,6 @@
 
 14.12.2024 GÜNCELLEMELERİ;
 
-- Ürün Silme Kısmı Eklendi.
+- Ürün Silme Kısmı Eklendi hem backend tarafına hemde UI tarafına eklenmiştir.
 
 - image güncellemeleri yapıldı.
