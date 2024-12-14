@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const { MongoClient } = require('mongodb');
+const { MongoClient, ObjectId } = require('mongodb');
 const bodyParser = require('body-parser');
 const multer = require('multer');
 const fs = require('fs');
@@ -93,7 +93,37 @@ app.post('/api/products', upload.single('product_image'), async (req, res) => {
     });
 
     // Ürün başarıyla eklendiyse, eklenen ürünü döndür
-    res.status(201).json(result.ops[0]);
+    res.status(201).json(result);
+  } catch (error) {
+    console.error('MongoDB bağlantısında bir hata oluştu:', error);
+    res.status(500).send('Bir hata oluştu.');
+  } finally {
+    // Bağlantıyı kapat
+    await client.close();
+  }
+});
+
+// API endpoint: Ürün sil
+app.delete('/api/products/:id', async (req, res) => {
+  const client = new MongoClient(uri);
+  const productId = req.params.id; // Silinmek istenen ürünün ID'si
+
+  try {
+    // MongoDB'ye bağlan
+    await client.connect();
+
+    // Veritabanına erişim
+    const database = client.db(databaseName);
+    const collection = database.collection(collectionName);
+
+    // Ürünü ID'ye göre sil
+    const result = await collection.deleteOne({ _id: new ObjectId(productId) });
+
+    if (result.deletedCount === 1) {
+      res.status(200).send('Ürün başarıyla silindi.');
+    } else {
+      res.status(404).send('Ürün bulunamadı.');
+    }
   } catch (error) {
     console.error('MongoDB bağlantısında bir hata oluştu:', error);
     res.status(500).send('Bir hata oluştu.');

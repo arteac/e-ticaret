@@ -49,6 +49,7 @@
             border-radius: 8px;
             margin-bottom: 15px;
             background-color: #fafafa;
+            position: relative;
         }
 
         .product h3 {
@@ -60,11 +61,32 @@
             max-width: 120px;
             height: auto;
             border-radius: 8px;
+            margin-bottom: 4%; /* Görsellerin alt kısmına %4 boşluk bırak */
+            margin-right: 4%; /* Görselin sağ kısmına %4 boşluk ekleyerek sola kaydırdım */
         }
 
         .product p {
             font-size: 16px;
             color: #555;
+        }
+
+        /* Silme Butonu */
+        .delete-btn {
+            background-color: #dc3545;
+            color: white;
+            font-size: 14px;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 1%; 
+            right: 1px;
+            transition: background-color 0.3s;
+        }
+
+        .delete-btn:hover {
+            background-color: #c82333;
         }
 
         /* Ürün Ekleme Formu */
@@ -139,6 +161,7 @@
             .product img {
                 max-width: 100px;
                 margin-top: 10px;
+                margin-right: 0; /* Sağdan boşluk kaldırıldı */
             }
         }
     </style>
@@ -190,11 +213,31 @@ async function fetchProducts() {
                     <p><strong>Fiyat:</strong> ${product.product_price}₺</p>
                 </div>
                 <div><img src="${product.product_image}" alt="${product.product_name}"></div>
+                <button class="delete-btn" onclick="deleteProduct('${product._id}')">Sil</button>
             `;
             productList.appendChild(productElement);
         });
     } catch (error) {
         console.error('Ürünler alınırken bir hata oluştu.', error);
+    }
+}
+
+// Ürünü silmek
+async function deleteProduct(productId) {
+    try {
+        const response = await fetch(`/api/products/${productId}`, {
+            method: 'DELETE',
+        });
+
+        if (response.ok) {
+            alert('Ürün başarıyla silindi, sayfayı yenileyebilirsiniz.');
+            fetchProducts(); // Ürün listesi güncelleniyor
+        } else {
+            alert('Ürün silinirken bir hata oluştu');
+        }
+    } catch (error) {
+        console.error('Silme işlemi sırasında bir hata oluştu', error);
+        alert('Silme işlemi sırasında bir hata oluştu');
     }
 }
 
