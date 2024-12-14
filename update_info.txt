@@ -1,3 +1,7 @@
 1. ÜRÜN YÖNETİM PANELİ Uİ GÜNCELLEMERİ YAPILDI.
 
-14.12.2024 => 
+14.12.2024 GÜNCELLEMELERİ;
+
+- Ürün Silme Kısmı Eklendi.
+
+- image güncellemeleri yapıldı.
