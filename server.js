@@ -18,6 +18,9 @@ const collectionName = 'products';
 // Statik dosyaları sunmak için
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Yüklenen dosyaları sunmak için uploads klasörünü statik olarak ekleyin
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 // JSON verisi alabilmek için middleware
 app.use(bodyParser.json());
 
@@ -50,23 +53,17 @@ app.get('/api/products', async (req, res) => {
   const client = new MongoClient(uri);
 
   try {
-    // MongoDB'ye bağlan
     await client.connect();
 
-    // Veritabanına erişim
     const database = client.db(databaseName);
     const collection = database.collection(collectionName);
 
-    // 'products' koleksiyonundaki tüm verileri al
     const products = await collection.find().toArray();
-
-    // JSON formatında ürünleri geri gönder
     res.json(products);
   } catch (error) {
     console.error('MongoDB bağlantısında bir hata oluştu:', error);
     res.status(500).send('Bir hata oluştu.');
   } finally {
-    // Bağlantıyı kapat
     await client.close();
   }
 });
@@ -78,27 +75,22 @@ app.post('/api/products', upload.single('product_image'), async (req, res) => {
   const product_image = req.file ? req.file.filename : null; // Yalnızca dosya adı (uzantı ile birlikte)
 
   try {
-    // MongoDB'ye bağlan
     await client.connect();
 
-    // Veritabanına erişim
     const database = client.db(databaseName);
     const collection = database.collection(collectionName);
 
-    // Yeni ürün verisini ekle
     const result = await collection.insertOne({
       product_name,
       product_price,
       product_image
     });
 
-    // Ürün başarıyla eklendiyse, eklenen ürünü döndür
     res.status(201).json(result);
   } catch (error) {
     console.error('MongoDB bağlantısında bir hata oluştu:', error);
     res.status(500).send('Bir hata oluştu.');
   } finally {
-    // Bağlantıyı kapat
     await client.close();
   }
 });
@@ -106,17 +98,14 @@ app.post('/api/products', upload.single('product_image'), async (req, res) => {
 // API endpoint: Ürün sil
 app.delete('/api/products/:id', async (req, res) => {
   const client = new MongoClient(uri);
-  const productId = req.params.id; // Silinmek istenen ürünün ID'si
+  const productId = req.params.id;
 
   try {
-    // MongoDB'ye bağlan
     await client.connect();
 
-    // Veritabanına erişim
     const database = client.db(databaseName);
     const collection = database.collection(collectionName);
 
-    // Ürünü ID'ye göre sil
     const result = await collection.deleteOne({ _id: new ObjectId(productId) });
 
     if (result.deletedCount === 1) {
@@ -128,7 +117,59 @@ app.delete('/api/products/:id', async (req, res) => {
     console.error('MongoDB bağlantısında bir hata oluştu:', error);
     res.status(500).send('Bir hata oluştu.');
   } finally {
-    // Bağlantıyı kapat
+    await client.close();
+  }
+});
+
+// API endpoint: Ürün güncelle
+app.put('/api/products/:id', upload.single('product_image'), async (req, res) => {
+  const client = new MongoClient(uri);
+  const productId = req.params.id;
+  const { product_name, product_price } = req.body;
+
+  let product_image; // Ürün resminin yeni yolunu tutacak değişken
+
+  try {
+    await client.connect();
+
+    const database = client.db(databaseName);
+    const collection = database.collection(collectionName);
+
+    // Ürün bilgilerini al
+    const product = await collection.findOne({ _id: new ObjectId(productId) });
+
+    if (!product) {
+      return res.status(404).send('Ürün bulunamadı.');
+    }
+
+    // Eğer yeni bir resim yüklenmişse, yeni resmi kullan
+    if (req.file) {
+      product_image = req.file.filename;
+    } else {
+      // Yeni resim yüklenmediyse mevcut resmi kullan
+      product_image = product.product_image;
+    }
+
+    // Ürün güncelleme
+    const updateDoc = {
+      $set: {
+        product_name,
+        product_price,
+        product_image
+      }
+    };
+
+    const result = await collection.updateOne({ _id: new ObjectId(productId) }, updateDoc);
+
+    if (result.modifiedCount === 1) {
+      res.status(200).send('Ürün başarıyla güncellendi.');
+    } else {
+      res.status(404).send('Ürün bulunamadı veya hiçbir değişiklik yapılmadı.');
+    }
+  } catch (error) {
+    console.error('MongoDB bağlantısında bir hata oluştu:', error);
+    res.status(500).send('Bir hata oluştu.');
+  } finally {
     await client.close();
   }
 });

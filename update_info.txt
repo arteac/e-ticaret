@@ -5,3 +5,5 @@
 - Ürün Silme Kısmı hem backend tarafına hemde UI tarafına eklenmiştir.
 
 - image güncellemeleri yapıldı.
+
+- Update Fonksiyonu hem backend tarafına hemde UI tarafına Eklenmiştir.

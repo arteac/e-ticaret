@@ -61,8 +61,8 @@
             max-width: 120px;
             height: auto;
             border-radius: 8px;
-            margin-bottom: 4%; /* Görsellerin alt kısmına %4 boşluk bırak */
-            margin-right: 4%; /* Görselin sağ kısmına %4 boşluk ekleyerek sola kaydırdım */
+            margin-bottom: 4%;
+            margin-right: 4%;
         }
 
         .product p {
@@ -80,13 +80,32 @@
             border-radius: 5px;
             cursor: pointer;
             position: absolute;
-            top: 1%; 
+            top: 1%;
             right: 1px;
             transition: background-color 0.3s;
         }
 
         .delete-btn:hover {
             background-color: #c82333;
+        }
+
+        /* Güncelleme Butonu */
+        .update-btn {
+            background-color: #ffc107;
+            color: white;
+            font-size: 14px;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 1%;
+            right: 80px;
+            transition: background-color 0.3s;
+        }
+
+        .update-btn:hover {
+            background-color: #e0a800;
         }
 
         /* Ürün Ekleme Formu */
@@ -161,7 +180,7 @@
             .product img {
                 max-width: 100px;
                 margin-top: 10px;
-                margin-right: 0; /* Sağdan boşluk kaldırıldı */
+                margin-right: 0;
             }
         }
     </style>
@@ -192,6 +211,24 @@
                 <button type="submit">Ürün Ekle</button>
             </form>
         </div>
+
+        <!-- Ürün Güncelleme Formu -->
+        <div class="form-container" id="update-form-container" style="display: none;">
+            <h2>Ürün Güncelle</h2>
+            <form id="update-product-form" enctype="multipart/form-data">
+                <input type="hidden" id="update-product-id">
+                <label for="update-product_name">Ürün Adı</label>
+                <input type="text" id="update-product_name" name="product_name" required><br>
+
+                <label for="update-product_price">Ürün Fiyatı</label>
+                <input type="number" id="update-product_price" name="product_price" required><br>
+
+                <label for="update-product_image">Ürün Resmi</label>
+                <input type="file" id="update-product_image" name="product_image"><br>
+
+                <button type="submit">Ürünü Güncelle</button>
+            </form>
+        </div>
     </div>
 
 <script>
@@ -212,8 +249,9 @@ async function fetchProducts() {
                     <h3>${product.product_name}</h3>
                     <p><strong>Fiyat:</strong> ${product.product_price}₺</p>
                 </div>
-                <div><img src="${product.product_image}" alt="${product.product_name}"></div>
+                <div><img src="${product.product_image ? product.product_image : '/default-image.jpg'}" alt="${product.product_name}" id="current-product-image"></div>
                 <button class="delete-btn" onclick="deleteProduct('${product._id}')">Sil</button>
+                <button class="update-btn" onclick="openUpdateForm('${product._id}', '${product.product_name}', '${product.product_price}', '${product.product_image}')">Güncelle</button>
             `;
             productList.appendChild(productElement);
         });
@@ -230,23 +268,66 @@ async function deleteProduct(productId) {
         });
 
         if (response.ok) {
-            alert('Ürün başarıyla silindi, sayfayı yenileyebilirsiniz.');
+            alert('Ürün başarıyla silindi..');
             fetchProducts(); // Ürün listesi güncelleniyor
         } else {
             alert('Ürün silinirken bir hata oluştu');
         }
     } catch (error) {
         console.error('Silme işlemi sırasında bir hata oluştu', error);
-        alert('Silme işlemi sırasında bir hata oluştu');
     }
 }
 
-// Yeni eklenen ürünü tabloya eklemek
-async function addProductToDatabase(product) {
-    const formData = new FormData();
-    formData.append('product_name', product.product_name);
-    formData.append('product_price', product.product_price);
-    formData.append('product_image', product.product_image);
+// Ürün güncelleme formunu açmak ve sayfaya kaydırmak
+function openUpdateForm(productId, productName, productPrice, productImage) {
+    document.getElementById('update-form-container').style.display = 'block';
+    document.getElementById('update-product-id').value = productId;
+    document.getElementById('update-product_name').value = productName;
+    document.getElementById('update-product_price').value = productPrice;
+    
+    // Mevcut resmi göstermek için
+    document.getElementById('current-product-image').src = productImage ? productImage : '/default-image.jpg';
+
+    // Sayfayı güncelleme formuna kaydır
+    document.getElementById('update-form-container').scrollIntoView({ behavior: 'smooth' });
+}
+
+// Ürün güncelleme formunu gönderme
+document.getElementById('update-product-form').addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    const productId = document.getElementById('update-product-id').value;
+
+    // Eğer formda resim yüklenmemişse, mevcut resmin yolunu formData'ya ekleyelim
+    const currentImageSrc = document.getElementById('current-product-image').src;
+    if (!formData.has('product_image') && currentImageSrc !== '/default-image.jpg') {
+        formData.append('product_image', currentImageSrc); // Mevcut resmi ekle
+    }
+
+    try {
+        const response = await fetch(`/api/products/${productId}`, {
+            method: 'PUT',
+            body: formData,
+        });
+
+        if (response.ok) {
+            alert('Ürün başarıyla güncellendi.');
+            fetchProducts();  // Ürün listesi güncelleniyor
+            document.getElementById('update-form-container').style.display = 'none';
+        } else {
+            alert('Ürün güncellenirken bir hata oluştu.');
+        }
+    } catch (error) {
+        console.error('Güncelleme işlemi sırasında bir hata oluştu', error);
+    }
+});
+
+// Yeni ürün ekleme
+document.getElementById('add-product-form').addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
 
     try {
         const response = await fetch('/api/products', {
@@ -255,38 +336,19 @@ async function addProductToDatabase(product) {
         });
 
         if (response.ok) {
-            const newProduct = await response.json();
+            alert('Ürün başarıyla eklendi.');
             fetchProducts(); // Ürün listesi güncelleniyor
-            alert('Ürün eklendi');
+            // Kaydırma işlemi kaldırıldı
         } else {
-            alert('Ürün Başarıyla Eklendi ! Sayfayı Yenileyebilirsiniz.');
+            alert('Ürün eklenirken bir hata oluştu.');
         }
     } catch (error) {
-        console.error('Veri gönderilirken bir hata oluştu:', error);
-        alert('Veri gönderilirken bir hata oluştu.');
+        console.error('Ürün eklenirken bir hata oluştu.', error);
     }
-}
-
-// Ürün ekleme formunu işleyelim
-document.getElementById('add-product-form').addEventListener('submit', async (e) => {
-    e.preventDefault();
-
-    const product_name = document.getElementById('product_name').value;
-    const product_price = document.getElementById('product_price').value;
-    const product_image = document.getElementById('product_image').files[0];
-
-    const product = {
-        product_name,
-        product_price,
-        product_image,
-    };
-
-    await addProductToDatabase(product);
-    document.getElementById('add-product-form').reset(); // Formu sıfırla
 });
 
-// Sayfa yüklendiğinde ürünleri listele
-window.onload = fetchProducts;
+// Sayfa yüklendiğinde ürünleri getir
+fetchProducts();
 </script>
 </body>
 </html>
