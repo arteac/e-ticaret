@@ -62,7 +62,7 @@ app.get('/api/products', async (req, res) => {
     res.json(products);
   } catch (error) {
     console.error('MongoDB bağlantısında bir hata oluştu:', error);
-    res.status(500).send('Bir hata oluştu.');
+    res.status(500).send('Bir hata oluştu..');
   } finally {
     await client.close();
   }
