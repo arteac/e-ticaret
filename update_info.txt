@@ -7,3 +7,10 @@
 - image güncellemeleri yapıldı.
 
 - Update Fonksiyonu hem backend tarafına hemde UI tarafına Eklenmiştir.
+
+- Proje Tamamlanmıştır.
+
+- Proje işleyişi Şu şekildedir;
+    - Codeigniter alt yapısındaki web uygulamamızın ana sayfadaki ürünlerini Hem PHP backend ile, hem de Node JS Backend ile CRUD 
+      İşlemlerini yapmamız mümkündür. Her iki tarafdada ürün kısmında yapılan değişiklikler Sitede görüntülenebilmektedir. Bunun
+      sebebi Her iki tarafın admin panelinde Mongo Serv linki, Database ve Collection adlarının her iki taraftada (PHP, NODE JS) aynı olmasıdır. 
