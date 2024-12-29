@@ -50,7 +50,7 @@ Bu proje, Node.js kullanarak MongoDB Atlas veritabanı ile etkileşimde bulunan 
    - Backend, MongoDB'deki ilgili ürün kaydını günceller ve işlem başarıyla tamamlandığında bir yanıt döner.
 
 4. **Ürün Silme**
-   - Kullanıcı, silmek istediği ürün için "Sil" butonuna tıkladığında, ilgili ürün ismi backend'e DELETE isteği ile gönderilir.
+   - Kullanıcı, silmek istediği ürün için "Sil" butonuna tıkladığında, ilgili id backend'e DELETE isteği ile gönderilir.
    - Backend, MongoDB Atlas veritabanından ilgili ürünü siler ve işlem tamamlandığında frontend'e bilgi döner.
 
 ---
