@@ -1,0 +1,649 @@
+INFO - 2024-11-19 16:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 16:42:23 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\sepet\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 4 APPPATH\Controllers\SepetController.php(14): view('sepet/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 16:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 16:43:27 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\sepet\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 4 APPPATH\Controllers\SepetController.php(14): view('sepet/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 16:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 16:43:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\sepet\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 4 APPPATH\Controllers\SepetController.php(14): view('sepet/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 16:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 16:43:48 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\sepet\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 4 APPPATH\Controllers\SepetController.php(14): view('sepet/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 16:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 16:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 17:22:19 --> App\Models\CartModel::__construct(): Argument #1 ($db) must be of type CodeIgniter\Database\ConnectionInterface, null given, called in C:\xampp\htdocs\e-ticaret\system\Config\Factories.php on line 215
+in APPPATH\Models\CartModel.php on line 11.
+ 1 SYSTEMPATH\Config\Factories.php(215): App\Models\CartModel->__construct(null)
+ 2 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CartModel', [...])
+ 3 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 4 APPPATH\Controllers\CartController.php(14): model('App\\Models\\CartModel')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\CartController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:23:01 --> Too few arguments to function App\Controllers\CartController::addProduct(), 0 passed in C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\CartController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:23:05 --> Too few arguments to function App\Controllers\CartController::addProduct(), 0 passed in C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\CartController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 17:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 17:33:35 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\sepet\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 4 APPPATH\Controllers\SepetController.php(14): view('sepet/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:34:32 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\sepet\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 4 APPPATH\Controllers\SepetController.php(14): view('sepet/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:35:24 --> Undefined variable $products
+in APPPATH\Views\sepet\index.php on line 58.
+ 1 APPPATH\Views\sepet\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\e-ticaret\\app\\Views\\sepet\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\e-ticaret\\app\\Views\\sepet\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 5 APPPATH\Controllers\SepetController.php(25): view('sepet/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:35:39 --> Undefined variable $products
+in APPPATH\Views\sepet\index.php on line 58.
+ 1 APPPATH\Views\sepet\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\e-ticaret\\app\\Views\\sepet\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\e-ticaret\\app\\Views\\sepet\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 5 APPPATH\Controllers\SepetController.php(25): view('sepet/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 17:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 17:39:02 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\sepet\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepet/index', [], true)
+ 4 APPPATH\Controllers\SepetController.php(14): view('sepet/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SepetController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SepetController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 17:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:24:54 --> Too few arguments to function App\Models\CartModel::__construct(), 0 passed in C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php on line 12 and exactly 1 expected
+in APPPATH\Models\CartModel.php on line 11.
+ 1 APPPATH\Controllers\CartController.php(12): App\Models\CartModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 18:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:46:16 --> Too few arguments to function App\Models\CartModel::__construct(), 0 passed in C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php on line 15 and exactly 1 expected
+in APPPATH\Models\CartModel.php on line 12.
+ 1 APPPATH\Controllers\CartController.php(15): App\Models\CartModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 18:46:59 --> mysqli_sql_exception: Unknown column 'cart.user_id' in 'where clause' in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+#8 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-19 18:46:59 --> Unknown column 'cart.user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cart`
+JOIN `product` ON `cart`.`product_id` = `product`.`id`
+WHERE `cart`.`user_id` = :cart.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CartModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 18:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-19 18:51:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-ticaret\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart(Array)
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#11 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-19 18:51:01 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`product_id`, `quantity`, `user_id`) VALUES (:product_id:, :quantity:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\CartModel.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 18:52:11 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)) in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-ticaret\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart(Array)
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#11 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-19 18:52:11 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`product_id`, `quantity`, `user_id`) VALUES (:product_id:, :quantity:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\CartModel.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 18:52:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)) in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-ticaret\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart(Array)
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#11 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-19 18:52:17 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`product_id`, `quantity`, `user_id`) VALUES (:product_id:, :quantity:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\CartModel.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 18:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:53:02 --> Undefined array key "product_id"
+in APPPATH\Controllers\CartController.php on line 35.
+ 1 APPPATH\Controllers\CartController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'C:\\xampp\\htdocs\\e-ticaret\\app\\Controllers\\CartController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 18:54:34 --> mysqli_sql_exception: Unknown column 'cart.id' in 'field list' in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `cart`.`...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+#8 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-19 18:54:34 --> Unknown column 'cart.id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`id`, `cart`.`quantity`, `product`.`product_name`, `product`.`product_price`
+FROM `cart`
+JOIN `product` ON `cart`.`product_id` = `product`.`id`
+WHERE `cart`.`user_id` = :cart.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CartModel.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 18:55:29 --> mysqli_sql_exception: Unknown column 'cart.id' in 'field list' in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `cart`.`...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+#8 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-19 18:55:29 --> Unknown column 'cart.id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`id`, `cart`.`quantity`, `product`.`product_name`, `product`.`product_price`
+FROM `cart`
+JOIN `product` ON `cart`.`product_id` = `product`.`id`
+WHERE `cart`.`user_id` = :cart.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CartModel.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 18:55:49 --> mysqli_sql_exception: Unknown column 'cart.id' in 'field list' in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `cart`.`...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+#8 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-19 18:55:49 --> Unknown column 'cart.id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`id`, `cart`.`quantity`, `product`.`product_name`, `product`.`product_price`
+FROM `cart`
+JOIN `product` ON `cart`.`product_id` = `product`.`id`
+WHERE `cart`.`user_id` = :cart.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CartModel.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 18:59:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-ticaret\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart(Array)
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#11 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-19 18:59:34 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`product_id`, `quantity`, `user_id`) VALUES (:product_id:, :quantity:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\CartModel.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 19:01:32 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE) in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-ticaret\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart(Array)
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#11 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-19 19:01:32 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`product_id`, `quantity`, `user_id`) VALUES (:product_id:, :quantity:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\CartModel.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 19:02:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE) in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-ticaret\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart(Array)
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#11 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-19 19:02:55 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`product_id`, `quantity`, `user_id`) VALUES (:product_id:, :quantity:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\CartModel.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 19:03:23 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE) in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-ticaret\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart(Array)
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#11 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-19 19:03:23 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`product_id`, `quantity`, `user_id`) VALUES (:product_id:, :quantity:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\CartModel.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 19:03:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE) in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-ticaret\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart(Array)
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#11 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-19 19:03:48 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`product_id`, `quantity`, `user_id`) VALUES (:product_id:, :quantity:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\CartModel.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\CartController.php(55): App\Models\CartModel->addProductToCart([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 19:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 19:08:12 --> Undefined array key "product_id"
+in APPPATH\Controllers\CartController.php on line 35.
+ 1 APPPATH\Controllers\CartController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'C:\\xampp\\htdocs\\e-ticaret\\app\\Controllers\\CartController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:08:32 --> Undefined array key "product_id"
+in APPPATH\Controllers\CartController.php on line 35.
+ 1 APPPATH\Controllers\CartController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'C:\\xampp\\htdocs\\e-ticaret\\app\\Controllers\\CartController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-19 19:10:15 --> mysqli_sql_exception: Unknown column 'cart.user_id' in 'where clause' in C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\e-ticaret\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `cart`.`...', 0)
+#1 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 C:\xampp\htdocs\e-ticaret\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 C:\xampp\htdocs\e-ticaret\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 C:\xampp\htdocs\e-ticaret\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-ticaret\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\e-ticaret\app\Models\CartModel.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\e-ticaret\app\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+#8 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+#9 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\e-ticaret\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-19 19:10:15 --> Unknown column 'cart.user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`id`, `cart`.`quantity`, `product`.`product_name`, `product`.`product_price`
+FROM `cart`
+JOIN `product` ON `cart`.`product_id` = `product`.`id`
+WHERE `cart`.`user_id` = :cart.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CartModel.php(35): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CartController.php(29): App\Models\CartModel->getCartProducts(1)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:11:50 --> Too few arguments to function App\Controllers\CartController::addProduct(), 0 passed in C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\CartController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:12:20 --> Too few arguments to function App\Controllers\CartController::addProduct(), 0 passed in C:\xampp\htdocs\e-ticaret\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\CartController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->addProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 19:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 19:19:44 --> Invalid file: "cart_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cart_view', [], true)
+ 3 APPPATH\Controllers\CartController.php(56): view('cart_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->viewCart()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 19:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 19:23:43 --> Invalid file: "cart_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cart_view', [], true)
+ 3 APPPATH\Controllers\CartController.php(42): view('cart_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CartController->viewCart()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-19 19:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 19:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 20:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 23:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 23:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 23:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 23:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 23:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 23:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 23:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 23:51:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes)
+in SYSTEMPATH\Common.php on line 1188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,0 +1,62 @@
+WARNING - 2025-01-29 18:30:26 --> [DEPRECATED] Return type of MongoDB\Model\BSONArray::bsonSerialize() should either be compatible with MongoDB\BSON\Serializable::bsonSerialize(): stdClass|MongoDB\BSON\Document|MongoDB\BSON\PackedArray|array, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in VENDORPATH\mongodb\mongodb\src\Model\BSONArray.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\xampp\\htdocs\\e-ticaret\\vendor\\mongodb\\mongodb\\src\\Model\\BSONArray.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\e-ticaret\\vendor\\composer/../mongodb/mongodb/src/Model/BSONArray.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('MongoDB\\Model\\BSONArray')
+ 4 VENDORPATH\mongodb\mongodb\src\Operation\Find.php(344): MongoDB\Driver\Cursor->setTypeMap([...])
+ 5 VENDORPATH\mongodb\mongodb\src\Collection.php(666): MongoDB\Operation\Find->execute(Object(MongoDB\Driver\Server))
+ 6 APPPATH\Models\MongoModel.php(28): MongoDB\Collection->find()
+ 7 APPPATH\Controllers\Home.php(15): App\Models\MongoModel->listAllProducts()
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-29 18:30:26 --> [DEPRECATED] Return type of MongoDB\Model\BSONArray::bsonUnserialize(array $data) should either be compatible with MongoDB\BSON\Unserializable::bsonUnserialize(array $data): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in VENDORPATH\mongodb\mongodb\src\Model\BSONArray.php on line 85.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\xampp\\htdocs\\e-ticaret\\vendor\\mongodb\\mongodb\\src\\Model\\BSONArray.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\e-ticaret\\vendor\\composer/../mongodb/mongodb/src/Model/BSONArray.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('MongoDB\\Model\\BSONArray')
+ 4 VENDORPATH\mongodb\mongodb\src\Operation\Find.php(344): MongoDB\Driver\Cursor->setTypeMap([...])
+ 5 VENDORPATH\mongodb\mongodb\src\Collection.php(666): MongoDB\Operation\Find->execute(Object(MongoDB\Driver\Server))
+ 6 APPPATH\Models\MongoModel.php(28): MongoDB\Collection->find()
+ 7 APPPATH\Controllers\Home.php(15): App\Models\MongoModel->listAllProducts()
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-29 18:30:26 --> [DEPRECATED] Return type of MongoDB\Model\BSONDocument::bsonSerialize() should either be compatible with MongoDB\BSON\Serializable::bsonSerialize(): stdClass|MongoDB\BSON\Document|MongoDB\BSON\PackedArray|array, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in VENDORPATH\mongodb\mongodb\src\Model\BSONDocument.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\xampp\\htdocs\\e-ticaret\\vendor\\mongodb\\mongodb\\src\\Model\\BSONDocument.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\e-ticaret\\vendor\\composer/../mongodb/mongodb/src/Model/BSONDocument.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('MongoDB\\Model\\BSONDocument')
+ 4 VENDORPATH\mongodb\mongodb\src\Operation\Find.php(344): MongoDB\Driver\Cursor->setTypeMap([...])
+ 5 VENDORPATH\mongodb\mongodb\src\Collection.php(666): MongoDB\Operation\Find->execute(Object(MongoDB\Driver\Server))
+ 6 APPPATH\Models\MongoModel.php(28): MongoDB\Collection->find()
+ 7 APPPATH\Controllers\Home.php(15): App\Models\MongoModel->listAllProducts()
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-29 18:30:26 --> [DEPRECATED] Return type of MongoDB\Model\BSONDocument::bsonUnserialize(array $data) should either be compatible with MongoDB\BSON\Unserializable::bsonUnserialize(array $data): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in VENDORPATH\mongodb\mongodb\src\Model\BSONDocument.php on line 95.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\xampp\\htdocs\\e-ticaret\\vendor\\mongodb\\mongodb\\src\\Model\\BSONDocument.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\e-ticaret\\vendor\\composer/../mongodb/mongodb/src/Model/BSONDocument.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('MongoDB\\Model\\BSONDocument')
+ 4 VENDORPATH\mongodb\mongodb\src\Operation\Find.php(344): MongoDB\Driver\Cursor->setTypeMap([...])
+ 5 VENDORPATH\mongodb\mongodb\src\Collection.php(666): MongoDB\Operation\Find->execute(Object(MongoDB\Driver\Server))
+ 6 APPPATH\Models\MongoModel.php(28): MongoDB\Collection->find()
+ 7 APPPATH\Controllers\Home.php(15): App\Models\MongoModel->listAllProducts()
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-29 18:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-29 18:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
