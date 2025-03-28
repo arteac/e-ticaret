@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Forma & Krampon Satış Sitesi
 
 Bu proje, **Node.js ve MongoAtlas** ile geliştirilmiş bir backend ve **CodeIgniter & MySQL** tabanlı bir admin paneline sahip bir e-ticaret sitesidir. Forma ve krampon satışı yapmaya odaklanmıştır.
