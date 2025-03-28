@@ -1,0 +1,22 @@
+{
+  "name": "e-ticaret",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.4",
+    "mongose": "^0.0.2-security",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.0"
+  }
+}
